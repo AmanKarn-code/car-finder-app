@@ -2,7 +2,7 @@
   --primary-color: #3a86ff;
   --primary-hover: #2563eb;
   --secondary-color: #ff006e;
-  --background-light: #ffffff;
+  --background-light: #ebf4f8;
   --text-light: #333333;
   --border-light: #e5e7eb;
   --background-dark: #121212;
@@ -39,9 +39,9 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("http://dettigyerekagynemu.hu/img/63804/KRST_6326_altpic_2/KRST_6326.jpg") no-repeat center center;
+  background: url("../assets/lightBG.jpg") no-repeat center center;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.9;
   z-index: -1;
   pointer-events: none;
 }
@@ -104,9 +104,9 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background:url('https://as2.ftcdn.net/jpg/01/34/34/27/1000_F_134342781_WXiLoEx0L7iCYANY9hOhd60PWFr8gUw2.jpg') no-repeat center center;
+  background:url('../assets/darkBG.jpg') no-repeat center center;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
   pointer-events: none;
   z-index: -1;
 }
@@ -1749,7 +1749,7 @@ logo-icon {
 
   .car-details-image-container {
     width: 50%;
-    height: 70vh;
+    height: 77vh;
   }
 
   .car-details-info {
