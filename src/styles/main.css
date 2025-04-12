@@ -579,9 +579,9 @@ body::before {
   color:rgb(248, 35, 35);
 }
 
-.wishlist-btn:hover {
+/* .wishlist-btn:hover { */
   /* color: white; */
-}
+/* } */
 
 .contact-btn {
   background-color: var(--primary-color);
