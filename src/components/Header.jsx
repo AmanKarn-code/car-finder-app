@@ -1,7 +1,13 @@
-// src/components/Header.jsx
 import { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { IoSearchOutline } from "react-icons/io5";
+import { 
+  Search, 
+  X, 
+  Heart, 
+  Sun, 
+  Moon,
+  Car
+} from 'lucide-react';
 
 function Header({ searchQuery, setSearchQuery, wishlistCount, toggleWishlistPanel }) {
   const { darkMode, toggleDarkMode } = useTheme();
@@ -26,13 +32,15 @@ function Header({ searchQuery, setSearchQuery, wishlistCount, toggleWishlistPane
     <header className={`app-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="logo">
         <h1>
-          <span className="logo-icon">🚗</span>
+          <Car className="logo-icon" size={24} strokeWidth={2} />
           <span className="logo-text">Car Finder</span>
         </h1>
       </div>
       
       <div className={`search-bar ${isSearchFocused ? 'focused' : ''}`}>
-        <span className="search-icon"><IoSearchOutline /></span>
+        <span className="search-icon">
+          <Search size={18} />
+        </span>
         <input
           type="text"
           placeholder="Search brands, models..."
@@ -42,32 +50,42 @@ function Header({ searchQuery, setSearchQuery, wishlistCount, toggleWishlistPane
           onBlur={() => setIsSearchFocused(false)}
         />
         {searchQuery && (
-          <button 
-            className="clear-search" 
+          <button
+            className="clear-search"
             onClick={() => setSearchQuery('')}
             aria-label="Clear search"
           >
-            ×
+            <X size={16} />
           </button>
         )}
       </div>
       
       <div className="header-actions">
-        <button 
+        <button
           className={`wishlist-btn ${wishlistCount > 0 ? 'has-items' : ''}`}
           onClick={toggleWishlistPanel}
           aria-label="View wishlist"
         >
-          <span className="wishlist-icon">❤️</span>
-          <span className="wishlist-count">{wishlistCount}</span>
+          <Heart 
+            className="wishlist-icon" 
+            size={22} 
+            fill={wishlistCount > 0 ? "currentColor" : "none"} 
+          />
+          {wishlistCount > 0 && (
+            <span className="wishlist-count">{wishlistCount}</span>
+          )}
         </button>
         
-        <button 
+        <button
           className="theme-toggle"
           onClick={toggleDarkMode}
           aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
         >
-          {darkMode ? '☀️' : '🌙'}
+          {darkMode ? (
+            <Sun size={22} />
+          ) : (
+            <Moon size={22} />
+          )}
         </button>
       </div>
     </header>
