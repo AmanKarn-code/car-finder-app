@@ -11,9 +11,10 @@ const mockCars = [
     mileage: 15,
     description:
       "The Toyota Camry is a reliable and fuel-efficient sedan, perfect for families and daily commutes.",
-    image: "https://images.pexels.com/photos/1007416/pexels-photo-1007416.jpeg",
-    image2: "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg",
-
+    image:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image2:
+      "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg",
   },
   {
     id: 2,
@@ -28,7 +29,8 @@ const mockCars = [
     description:
       "The Honda Civic is a compact car known for its efficiency, reliability, and sporty feel.",
     image: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
-    image2: "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg",
+    image2:
+      "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg",
   },
   {
     id: 3,
@@ -41,7 +43,9 @@ const mockCars = [
     transmission: "Automatic",
     mileage: 12,
     description: "The BMW X5 is a luxury SUV that combines power and elegance.",
-    image: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    image: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 4,
@@ -56,6 +60,8 @@ const mockCars = [
     description:
       "The Tesla Model 3 is an all-electric sedan with impressive range and acceleration.",
     image: "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 5,
@@ -69,7 +75,9 @@ const mockCars = [
     mileage: 10,
     description:
       "The Ford F-150 is America’s best-selling pickup truck, known for its durability.",
-    image: "https://images.pexels.com/photos/3620794/pexels-photo-3620794.jpeg",
+    image: "https://images.pexels.com/photos/235222/pexels-photo-235222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 6,
@@ -84,6 +92,8 @@ const mockCars = [
     description:
       "The Mercedes-Benz C-Class offers a blend of comfort, performance, and advanced technology.",
     image: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 7,
@@ -98,6 +108,8 @@ const mockCars = [
     description:
       "The Toyota RAV4 is a popular compact SUV that offers practicality and reliability.",
     image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 8,
@@ -112,6 +124,8 @@ const mockCars = [
     description:
       "The Audi A4 is a compact luxury sedan known for its refined interior and technology.",
     image: "https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 9,
@@ -125,7 +139,9 @@ const mockCars = [
     mileage: 9,
     description:
       "The Chevrolet Silverado is a full-size pickup truck built for work and play.",
-    image: "https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg",
+    image: "https://images.pexels.com/photos/248687/pexels-photo-248687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 10,
@@ -139,7 +155,9 @@ const mockCars = [
     mileage: 15,
     description:
       "The Honda CR-V is a compact SUV with excellent fuel efficiency and a smooth ride.",
-    image: "https://images.pexels.com/photos/3860376/pexels-photo-3860376.jpeg",
+    image: "https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 11,
@@ -154,6 +172,8 @@ const mockCars = [
     description:
       "The BMW 3 Series is known for its dynamic handling and premium features.",
     image: "https://images.pexels.com/photos/1280560/pexels-photo-1280560.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 12,
@@ -168,6 +188,8 @@ const mockCars = [
     description:
       "The Toyota Corolla is one of the world’s best-selling cars, known for its reliability.",
     image: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 13,
@@ -182,6 +204,8 @@ const mockCars = [
     description:
       "The Ford Explorer is a midsize SUV built for family adventures.",
     image: "https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 14,
@@ -196,6 +220,8 @@ const mockCars = [
     description:
       "The Audi Q5 is a luxury compact SUV that balances performance and comfort.",
     image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 15,
@@ -210,6 +236,8 @@ const mockCars = [
     description:
       "The Tesla Model Y is an electric compact SUV with range and cutting-edge tech.",
     image: "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 16,
@@ -224,6 +252,8 @@ const mockCars = [
     description:
       "The Chevrolet Malibu is a stylish midsize sedan with advanced safety features.",
     image: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 17,
@@ -237,7 +267,9 @@ const mockCars = [
     mileage: 15,
     description:
       "The Nissan Altima offers a smooth ride with modern design and tech features.",
-    image: "https://images.pexels.com/photos/3996117/pexels-photo-3996117.jpeg",
+    image: "https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 18,
@@ -251,611 +283,9 @@ const mockCars = [
     mileage: 17,
     description:
       "The Kia Seltos is a compact SUV with sharp looks and great value.",
-    image: "https://images.pexels.com/photos/1007415/pexels-photo-1007415.jpeg",
-  },
-  {
-    id: 19,
-    brand: "Hyundai",
-    name: "Elantra",
-    price: 23000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "CVT",
-    mileage: 18,
-    description:
-      "The Hyundai Elantra offers cutting-edge design and excellent fuel economy.",
-    image: "https://images.pexels.com/photos/3859978/pexels-photo-3859978.jpeg",
-  },
-  {
-    id: 20,
-    brand: "Ford",
-    name: "Mustang",
-    price: 40000,
-    fuelType: "Petrol",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 9,
-    description:
-      "The Ford Mustang is an iconic American sports car known for its thrilling performance.",
-    image: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
-  },
-  {
-    id: 21,
-    brand: "Mazda",
-    name: "CX-5",
-    price: 32000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 14,
-    description:
-      "The Mazda CX-5 delivers a refined driving experience with upscale features.",
-    image: "https://images.pexels.com/photos/3835818/pexels-photo-3835818.jpeg",
-  },
-  {
-    id: 22,
-    brand: "Volkswagen",
-    name: "Jetta",
-    price: 24000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 16,
-    description:
-      "The Volkswagen Jetta is a fun-to-drive compact sedan with premium build quality.",
-    image: "https://images.pexels.com/photos/7524840/pexels-photo-7524840.jpeg",
-  },
-  {
-    id: 23,
-    brand: "Subaru",
-    name: "Outback",
-    price: 34000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "CVT",
-    mileage: 13,
-    description:
-      "The Subaru Outback is a rugged wagon designed for adventure with AWD.",
-    image: "https://images.pexels.com/photos/8134705/pexels-photo-8134705.jpeg",
-  },
-  {
-    id: 24,
-    brand: "Lexus",
-    name: "RX",
-    price: 55000,
-    fuelType: "Hybrid",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 18,
-    description:
-      "The Lexus RX is a premium midsize SUV known for comfort and hybrid efficiency.",
-    image: "https://images.pexels.com/photos/1007412/pexels-photo-1007412.jpeg",
-  },
-  {
-    id: 25,
-    brand: "Jeep",
-    name: "Wrangler",
-    price: 45000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 10,
-    description:
-      "The Jeep Wrangler is the ultimate off-roader with rugged style and 4x4 capability.",
-    image: "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg",
-  },
-  {
-    id: 26,
-    brand: "Dodge",
-    name: "Charger",
-    price: 42000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 11,
-    description:
-      "The Dodge Charger blends muscle car performance with four-door practicality.",
-    image: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
-  },
-  {
-    id: 27,
-    brand: "Porsche",
-    name: "911",
-    price: 115000,
-    fuelType: "Petrol",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 10,
-    description:
-      "The Porsche 911 is a world-renowned sports car offering performance and luxury.",
-    image: "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg",
-  },
-  {
-    id: 28,
-    brand: "Tesla",
-    name: "Model X",
-    price: 98000,
-    fuelType: "Electric",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Tesla Model X is a premium electric SUV with falcon-wing doors and autopilot.",
-    image: "https://images.pexels.com/photos/136872/pexels-photo-136872.jpeg",
-  },
-  {
-    id: 29,
-    brand: "GMC",
-    name: "Sierra",
-    price: 47000,
-    fuelType: "Diesel",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 12,
-    description:
-      "The GMC Sierra is a full-size pickup truck with strong towing and utility capabilities.",
-    image: "https://images.pexels.com/photos/866979/pexels-photo-866979.jpeg",
-  },
-  {
-    id: 30,
-    brand: "Ram",
-    name: "1500",
-    price: 48000,
-    fuelType: "Diesel",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 13,
-    description:
-      "The Ram 1500 combines rugged capability with interior refinement in a modern truck.",
-    image: "https://images.pexels.com/photos/7860033/pexels-photo-7860033.jpeg",
-  },
-  {
-    id: 31,
-    brand: "Jaguar",
-    name: "F-Type",
-    price: 73000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 10,
-    description:
-      "The Jaguar F-Type is a luxury sports coupe known for elegance and raw power.",
-    image: "https://images.pexels.com/photos/1423707/pexels-photo-1423707.jpeg",
-  },
-  {
-    id: 32,
-    brand: "Infiniti",
-    name: "QX60",
-    price: 54000,
-    fuelType: "Petrol",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "CVT",
-    mileage: 14,
-    description:
-      "The Infiniti QX60 is a luxurious three-row SUV with sleek styling and comfort.",
-    image: "https://images.pexels.com/photos/4013293/pexels-photo-4013293.jpeg",
-  },
-  {
-    id: 33,
-    brand: "Buick",
-    name: "Enclave",
-    price: 51000,
-    fuelType: "Petrol",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 13,
-    description:
-      "The Buick Enclave offers upscale features and a quiet, roomy interior.",
-    image: "https://images.pexels.com/photos/1359387/pexels-photo-1359387.jpeg",
-  },
-  {
-    id: 34,
-    brand: "Cadillac",
-    name: "Escalade",
-    price: 95000,
-    fuelType: "Petrol",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 10,
-    description:
-      "The Cadillac Escalade is a large luxury SUV with impressive tech and presence.",
-    image: "https://images.pexels.com/photos/1314608/pexels-photo-1314608.jpeg",
-  },
-  {
-    id: 35,
-    brand: "Lincoln",
-    name: "Navigator",
-    price: 92000,
-    fuelType: "Petrol",
-    seatingCapacity: 8,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 11,
-    description:
-      "The Lincoln Navigator combines comfort, size, and elegance in one bold SUV.",
-    image: "https://images.pexels.com/photos/5027747/pexels-photo-5027747.jpeg",
-  },
-  {
-    id: 36,
-    brand: "Mini",
-    name: "Cooper",
-    price: 29000,
-    fuelType: "Petrol",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 19,
-    description:
-      "The Mini Cooper is a compact car with lively handling and a retro-modern design.",
-    image: "https://images.pexels.com/photos/6707207/pexels-photo-6707207.jpeg",
-  },
-  {
-    id: 37,
-    brand: "Alfa Romeo",
-    name: "Giulia",
-    price: 48000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 15,
-    description:
-      "The Alfa Romeo Giulia is a sports sedan with Italian style and precision handling.",
-    image:
-      "https://images.pexels.com/photos/17355735/pexels-photo-17355735.jpeg",
-  },
-  {
-    id: 38,
-    brand: "Mitsubishi",
-    name: "Outlander",
-    price: 31000,
-    fuelType: "Hybrid",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 17,
-    description:
-      "The Mitsubishi Outlander is a practical SUV with available plug-in hybrid tech.",
-    image: "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg",
-  },
-  {
-    id: 39,
-    brand: "Peugeot",
-    name: "3008",
-    price: 35000,
-    fuelType: "Diesel",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 16,
-    description:
-      "The Peugeot 3008 blends French style with functionality and tech-savvy features.",
-    image: "https://images.pexels.com/photos/8669932/pexels-photo-8669932.jpeg",
-  },
-  {
-    id: 40,
-    brand: "Renault",
-    name: "Duster",
-    price: 23000,
-    fuelType: "Diesel",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 17,
-    description:
-      "The Renault Duster is a rugged and affordable compact SUV with great capability.",
-    image: "https://images.pexels.com/photos/6158303/pexels-photo-6158303.jpeg",
-  },
-
-  {
-    id: 51,
-    brand: "Skoda",
-    name: "Kodiaq",
-    price: 34000,
-    fuelType: "Petrol",
-    seatingCapacity: 7,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 15,
-    description:
-      "The Skoda Kodiaq is a spacious, well-equipped SUV known for its European design and family-friendly features.",
-    image: "https://images.pexels.com/photos/1149834/pexels-photo-1149834.jpeg",
-  },
-  {
-    id: 52,
-    brand: "MG",
-    name: "Hector",
-    price: 28000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 16,
-    description:
-      "The MG Hector features bold styling and a tech-forward interior, offering strong value in the SUV market.",
-    image: "https://images.pexels.com/photos/1213294/pexels-photo-1213294.jpeg",
-  },
-  {
-    id: 53,
-    brand: "Mahindra",
-    name: "Thar",
-    price: 25000,
-    fuelType: "Diesel",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 13,
-    description:
-      "The Mahindra Thar is a rugged off-roader with a modern twist, great for adventure seekers.",
-    image: "https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg",
-  },
-  {
-    id: 54,
-    brand: "Tata",
-    name: "Harrier",
-    price: 27000,
-    fuelType: "Diesel",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 14,
-    description:
-      "The Tata Harrier is a stylish mid-size SUV with powerful performance and Indian engineering.",
-    image: "https://images.pexels.com/photos/1398041/pexels-photo-1398041.jpeg",
-  },
-  {
-    id: 55,
-    brand: "Maruti Suzuki",
-    name: "Vitara Brezza",
-    price: 21000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 18,
-    description:
-      "A compact SUV with urban style, the Vitara Brezza is a top seller in the Indian market.",
-    image: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
-  },
-  {
-    id: 56,
-    brand: "Chevrolet",
-    name: "Camaro",
-    price: 43000,
-    fuelType: "Petrol",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 10,
-    description:
-      "The Chevrolet Camaro is an American muscle icon with aggressive styling and thrilling power.",
-    image: "https://images.pexels.com/photos/1429791/pexels-photo-1429791.jpeg",
-  },
-  {
-    id: 57,
-    brand: "BMW",
-    name: "i8",
-    price: 140000,
-    fuelType: "Hybrid",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 29,
-    description:
-      "The BMW i8 is a plug-in hybrid sports car that blends futuristic design with efficiency.",
-    image: "https://images.pexels.com/photos/452133/pexels-photo-452133.jpeg",
-  },
-  {
-    id: 58,
-    brand: "Ferrari",
-    name: "812 Superfast",
-    price: 340000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 6,
-    description:
-      "The Ferrari 812 Superfast delivers blistering speed and unmatched Italian design.",
-    image: "https://images.pexels.com/photos/1082655/pexels-photo-1082655.jpeg",
-  },
-  {
-    id: 59,
-    brand: "Lamborghini",
-    name: "Urus",
-    price: 250000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 8,
-    description:
-      "The Lamborghini Urus is a luxury performance SUV with exotic styling and insane power.",
-    image: "https://images.pexels.com/photos/3859970/pexels-photo-3859970.jpeg",
-  },
-  {
-    id: 60,
-    brand: "Bugatti",
-    name: "Chiron",
-    price: 3000000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 4,
-    description:
-      "The Bugatti Chiron is a hypercar engineered for extreme speed and exclusivity.",
-    image: "https://images.pexels.com/photos/1392096/pexels-photo-1392096.jpeg",
-  },
-  {
-    id: 61,
-    brand: "Koenigsegg",
-    name: "Jesko",
-    price: 2800000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 5,
-    description:
-      "The Koenigsegg Jesko is a Swedish masterpiece, built for breaking speed records.",
-    image: "https://images.pexels.com/photos/1280561/pexels-photo-1280561.jpeg",
-  },
-  {
-    id: 62,
-    brand: "McLaren",
-    name: "720S",
-    price: 300000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 9,
-    description:
-      "The McLaren 720S combines performance, precision, and British design in a supercar.",
-    image: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
-  },
-  {
-    id: 63,
-    brand: "Pagani",
-    name: "Huayra",
-    price: 3200000,
-    fuelType: "Petrol",
-    seatingCapacity: 2,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 5,
-    description:
-      "The Pagani Huayra is an Italian hypercar with breathtaking design and craftsmanship.",
-    image: "https://images.pexels.com/photos/1216321/pexels-photo-1216321.jpeg",
-  },
-  {
-    id: 64,
-    brand: "Lotus",
-    name: "Evora",
-    price: 98000,
-    fuelType: "Petrol",
-    seatingCapacity: 4,
-    year: 2023,
-    transmission: "Manual",
-    mileage: 17,
-    description:
-      "The Lotus Evora is a lightweight sports car with dynamic handling and unique styling.",
-    image: "https://images.pexels.com/photos/1269760/pexels-photo-1269760.jpeg",
-  },
-  {
-    id: 65,
-    brand: "Genesis",
-    name: "G80",
-    price: 57000,
-    fuelType: "Petrol",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 14,
-    description:
-      "The Genesis G80 is a luxury sedan offering refinement, safety, and sleek design.",
-    image: "https://images.pexels.com/photos/3795007/pexels-photo-3795007.jpeg",
-  },
-  {
-    id: 66,
-    brand: "Lucid",
-    name: "Air",
-    price: 77000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Lucid Air is a high-end electric sedan with luxurious design and long range.",
-    image: "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg",
-  },
-  {
-    id: 67,
-    brand: "Rivian",
-    name: "R1T",
-    price: 68000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Rivian R1T is an electric pickup designed for adventure with off-road capability.",
-    image: "https://images.pexels.com/photos/5586790/pexels-photo-5586790.jpeg",
-  },
-  {
-    id: 68,
-    brand: "BYD",
-    name: "Atto 3",
-    price: 32000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The BYD Atto 3 is a stylish electric crossover with innovative tech and efficiency.",
-    image: "https://images.pexels.com/photos/1124604/pexels-photo-1124604.jpeg",
-  },
-  {
-    id: 69,
-    brand: "Nissan",
-    name: "Ariya",
-    price: 48000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Nissan Ariya is a futuristic electric SUV with bold styling and cutting-edge features.",
-    image: "https://images.pexels.com/photos/3656519/pexels-photo-3656519.jpeg",
-  },
-  {
-    id: 70,
-    brand: "Hyundai",
-    name: "Ioniq 5",
-    price: 47000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Hyundai Ioniq 5 is an electric SUV with retro-futuristic styling and fast charging.",
-    image: "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg",
-  },
-  {
-    id: 71,
-    brand: "Volvo",
-    name: "XC40 Recharge",
-    price: 53000,
-    fuelType: "Electric",
-    seatingCapacity: 5,
-    year: 2023,
-    transmission: "Automatic",
-    mileage: 0,
-    description:
-      "The Volvo XC40 Recharge is a compact electric SUV with Scandinavian design and safety features.",
-    image: "https://images.pexels.com/photos/998417/pexels-photo-998417.jpeg",
+    image: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image2:
+      "https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
 

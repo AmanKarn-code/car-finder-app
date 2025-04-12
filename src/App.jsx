@@ -10,6 +10,7 @@ import Loading from "./components/Loading";
 import { fetchCars } from "./services/api";
 import useLocalStorage from "./hooks/useLocalStorage";
 import { useTheme } from "./context/ThemeContext";
+import Footer from "./components/Footer";
 
 function App() {
   const [cars, setCars] = useState([]);
@@ -216,12 +217,13 @@ function App() {
 
       {showWishlist && (
         <WishlistPanel
-          wishlist={wishlist}
-          onClose={toggleWishlistPanel}
-          onRemove={toggleWishlist}
-          onViewDetails={viewCarDetails}
+        wishlist={wishlist}
+        onClose={toggleWishlistPanel}
+        onRemove={toggleWishlist}
+        onViewDetails={viewCarDetails}
         />
       )}
+      <Footer/>
     </div>
   );
 }
